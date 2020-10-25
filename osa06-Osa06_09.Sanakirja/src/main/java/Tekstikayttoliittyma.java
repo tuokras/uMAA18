@@ -49,7 +49,7 @@ public class Tekstikayttoliittyma {
                 
                 String tulostus = sanakirja.kaanna(haettava);
                 
-                //NullPointerException jos tuolostu.equals(null)
+                //NullPointerException jos tuolostus.equals(null)
                 if (tulostus == null) {
                     System.out.println("Sanaa " + haettava + " ei löydy");
                     continue;
